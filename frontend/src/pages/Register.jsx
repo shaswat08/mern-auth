@@ -103,7 +103,7 @@ const Register = () => {
         </form>
         {error && <p className="w-[80%] text-red-600 text-sm">{error}</p>}
         <p className="w-[80%] font-bold">
-          Have an account?{" "}
+          Already Have an account?{" "}
           <Link to="/login">
             <span className="font-semibold text-blue-500 hover:underline">
               Sign in
